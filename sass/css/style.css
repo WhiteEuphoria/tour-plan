@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -567,8 +566,8 @@ template {
   line-height: 13px;
   padding: 4px 9px;
   background-color: #EC1F46;
-  -webkit-border-radius: 3pxне;
-          border-radius: 3pxне;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
   color: #ffffff;
 }
 
