@@ -559,6 +559,15 @@ template {
   margin-top: 4px;
 }
 
+.hotel-info__name {
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+
+.hotel-info__description {
+  margin: 5px 0;
+}
+
 .hotel-name {
   font-size: 24px;
   line-height: 30px;
@@ -693,9 +702,9 @@ template {
     background-color: #333333;
   }
   .stars {
-    -webkit-flex-basis: content;
-        -ms-flex-preferred-size: content;
-            flex-basis: content;
+    -webkit-flex-basis: auto;
+        -ms-flex-preferred-size: auto;
+            flex-basis: auto;
   }
   .hotel-name {
     -webkit-flex-basis: 100%;
@@ -710,6 +719,10 @@ template {
   }
   .hotel-info__text {
     width: 100%;
+  }
+  .hotel-info__name {
+    margin-top: 10px;
+    margin-bottom: 0;
   }
   .hotel-info__rating {
     display: none;
