@@ -706,6 +706,10 @@ template {
         -ms-flex-preferred-size: auto;
             flex-basis: auto;
   }
+  .hotel {
+    padding-top: 5px;
+    padding-bottom: 20px;
+  }
   .hotel-name {
     -webkit-flex-basis: 100%;
         -ms-flex-preferred-size: 100%;
