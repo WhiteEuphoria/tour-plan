@@ -535,7 +535,7 @@ template {
 }
 
 .hotel {
-  padding-top: 23px;
+  padding-top: 24px;
   padding-bottom: 70px;
 }
 
@@ -598,6 +598,18 @@ template {
   -webkit-flex-basis: 100%;
       -ms-flex-preferred-size: 100%;
           flex-basis: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.stars__star {
+  margin-right: 2px;
+}
+
+.stars__star:last-child {
+  margin: 0;
 }
 
 .offer {
@@ -628,6 +640,10 @@ template {
 .rating__counter {
   font-size: 14px;
   line-height: 18px;
+}
+
+.rating__counter-small {
+  font-size: 10px;
 }
 
 @media (max-width: 1200px) {
