@@ -565,7 +565,7 @@ template {
 }
 
 .hotel-info__description {
-  margin: 3px 0;
+  margin: 0;
 }
 
 .hotel-name {
@@ -751,12 +751,15 @@ template {
     max-width: 278px;
   }
   .navbar-top {
-    padding-top: 28px;
+    padding-top: 25px;
     padding-bottom: 28px;
   }
   .hotel {
-    padding-top: 5px;
+    padding-top: 0;
     padding-bottom: 20px;
+  }
+  .hotel-wrapper {
+    max-width: 268px;
   }
 }
 /*# sourceMappingURL=style.css.map */
